@@ -1,0 +1,40 @@
+.col1, .col2, .col3, .cols { float:left;}
+.col3{width:192px}
+
+.containerContent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 872px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+    
+.blockPage1{
+    width: 400px;
+    float: left;
+}   
+
+.blockPage2{
+    width: 872px;
+    float: left;
+}   
+
+.blockPage4{
+    width: 270px;
+    float: left;
+} 
+
+.blockPage5{
+    width: 400px;
+    float: left;
+} 
+
+.blockPage6{
+    width: 680px;
+    float: left;
+} 
+
+.Pg2col1{
+    width: 280px;
+    float: left;
+}     

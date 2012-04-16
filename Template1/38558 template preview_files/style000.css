@@ -1,0 +1,139 @@
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+.relative{ position:relative;}
+
+/* Global properties ======================================================== */
+
+body{ background: url(bg000000.jpg) center center no-repeat #000; border:0; font:13px Arial, Helvetica, sans-serif; color:#727272; line-height:18px; min-width:960px; overflow:hidden}
+
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+
+.page_spinner{ position:absolute;background:#000; z-index:99; width:100%; height:100%; top:0; left:0}
+.page_spinner div{ position:absolute;background: url(ajax-loa.gif) 50% 50% no-repeat;width:100%; height:100%; top:0; left:0}
+
+
+/* Global Structure ============================================================= */
+
+.center{ position:relative; width:100%; overflow:hidden;}
+
+/* ============================= main layout ====================== */
+
+a{ color:#fff; outline:none; text-decoration:none;}
+a:hover{}
+h1{ padding:28px 0 0 368px;}
+h2{ font-size:40px; color:#fff; line-height:1.2em; padding:26px 0 14px 0;} 
+p{ padding-bottom:18px;}
+
+/* ============================= header ====================== */
+header{ height:210px; position:relative; z-index:10}
+
+#logo{ display:block; text-indent:-9999px; background:url(logo0000.png) 0 0 no-repeat; width:226px; height:62px;}
+
+.menu{ float:right; margin-right:10px; padding-top:28px;}
+#menu {}
+#menu > li { float:left; margin-left:4px; position:relative;}
+#menu > li > strong{ position:absolute; top:0; left:0; width:100%; height:100%; background:#ed1c24}
+#menu > li > a{ position:relative; font-size:16px; line-height:34px; text-transform:uppercase; padding:0 19px; display:block}
+#menu > li > a span{ position:absolute; background:url(menu_mar.gif) center 0 no-repeat; width:100%; height:6px; bottom:0px; left:0; display:none}
+#menu > li > a:hover, #menu > .active > a{ }
+
+.submenu_1{ position: absolute; left:0; top:39px; width:100%;}
+.submenu_1 li{ padding-bottom:1px; position:relative;}
+.submenu_1 a{ display:block; font-size:11px; color:#b4b4b4; line-height:27px; text-align:center; background:#353535}
+.submenu_2{ position: absolute; right:-132px; top:0; width:131px;}
+.submenu_2 a{ background:#242424}
+
+/* ============================= content ====================== */
+
+#content{ height:630px; position:relative; z-index:1}
+#content > ul > li{ position:relative; width:100%;}
+
+#splash{ position:absolute;}
+#splash li{ position:absolute;}
+#splash a{ position:relative; background:#0a0a0a; border:10px solid #000; box-shadow: 0 0 5px rgba(0, 0, 0, .22); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .22); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .22); display:block}
+#splash .img_gray{ position:absolute; top:0; left:0}
+#splash .title{ font-size:28px; color:#fff; text-transform:uppercase; line-height:1.2em; padding:17px 0 11px 9px; display:block; position:relative;}
+#splash .title span{ position:absolute; top:17px; left:9px; color:#ed1c24; background:#0a0a0a; max-width:20px;}
+#splash .shadow{ position:absolute; width:194px; height:32px; background:url(img_shad.png) 0 0 no-repeat; left:-10px; bottom:-45px; cursor:default}
+
+#ban1{ top:144px; left:388px; z-index:4}
+#ban2{ top:101px; left:237px; z-index:3}
+#ban3{ top:33px; left:303px; z-index:2}
+#ban4{ top:-14px; left:435px; z-index:1}
+#ban5{ top:73px; left:532px; z-index:3}
+
+#splash > div{ position:absolute;top:144px; left:388px; z-index:5}
+#splash > div > div{position: absolute; background:#0a0a0a; border:10px solid #000;  display:block}
+#splash > div > div .shadow{ background:none}
+
+.box{position:relative; background:#0a0a0a; border:10px solid #000; box-shadow: 0 0 5px rgba(0, 0, 0, .22); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .22); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .22); padding:0 34px; height:575px;}
+
+.pad_bot1{ padding-bottom:17px;}
+.pad_bot2{ padding-bottom:6px}
+.pad_left1{ padding-left:32px;}
+.marg_right1{ margin-right:15px;}
+#page_services .pad_bot1{ padding-bottom:14px;}
+
+.color1{ color:#fff;}
+
+.font1{ font-size:19px; font-weight:bold; line-height:22px; text-transform:uppercase; font-weight: bold; padding-bottom:11px; color:#fff; margin-top:-4px;}
+
+.link1{ font-size:24px; line-height:1.2em; position:relative; display:inline-block}
+.link1 span{ position:absolute; top:0; left:0; color:#ed1c24; background:#0a0a0a}
+.link2{ font-size:11px; color:#ed1c24; text-transform:uppercase;}
+
+.services li{ border-bottom:1px solid #383838; margin:0 -10px; padding:13px 10px 27px; margin-bottom:20px;}
+.services a{ font-size:17px; color:#979797; line-height:22px; text-transform:uppercase}
+.services strong{ font-size:19px; color:#fff !important}
+.services .last{ padding-bottom:11px; border-bottom:0;}
+
+.list1{ margin-top:-5px;}
+.list1 li{ padding-bottom:12px;}
+.list1 a{ font-size:11px; text-transform:uppercase; padding-left:10px; background:url(marker_1.gif) 0 3px no-repeat}
+
+.google_map{ background:#000; float: left; width:352px; height:181px; margin-right:13px; margin-bottom:14px;}
+
+.scroll{height:455px; width:580px; overflow:hidden;}
+.track{ width:1px; height:460px; padding:30px 0; top:50px !important; left:615px !important; background:#727272}
+.shuttle{ width:5px; height:55px; background:#ed1c24; margin-left:-2px;}
+._up-butt, ._down-butt{ height:0px !important;}
+
+
+/* ============================= columns ====================== */
+
+.col1{ width:290px; float:left;}
+
+#page_solutions .col1{ width:312px; margin-left:10px;}
+#page_contacts .col1{ width:170px;}
+
+
+/* ============================= footer ====================== */
+
+footer { padding:31px 0 25px 0; margin:0 10px; background:url(line_hor.png) 0 0 repeat-x; font:12px Tahoma, Geneva, sans-serif; text-transform:uppercase; text-align:center; color:#545454}
+footer a{ color:#959595}
+footer a:hover{}
+
+/* ============================= forms ============================= */
+
+#ContactForm{ position:relative;}
+#ContactForm .wrapper{ overflow:inherit; min-height:50px;}
+#ContactForm .success{ display:none; position:absolute; bottom:0; left:0; color:#fff}
+#ContactForm label{ position:relative;min-height:34px; display: inline-block;}
+#ContactForm .message{ height:97px;}
+#ContactForm  span{ display:block}
+#ContactForm .error, #ContactForm .empty{ font-size:10px; color:#fff; line-height:14px; display:none; width:100%}
+#ContactForm a{ margin-left:20px; float:right;}
+#ContactForm .input { margin:0;width:282px; height:16px; background: #272727; border:1px solid #414141; padding:8px;color:#727272; font:13px Arial, Helvetica, sans-serif;}
+#ContactForm textarea { overflow: auto; margin:0;resize:none;width:594px; height:58px; background: #272727; border:1px solid #414141; padding:8px;color:#727272; font:13px Arial, Helvetica, sans-serif;}
+
+
+#ContactForm  .bg{ display:inline-block;}
+#ContactForm .pad_left1{ padding-left:12px;}
+#ContactForm .col1{ width:300px;}
+
+
+

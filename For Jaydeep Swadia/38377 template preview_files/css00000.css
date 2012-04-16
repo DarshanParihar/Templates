@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url('http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XT8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url('http://themes.googleusercontent.com/static/fonts/pacifico/v4/yunJt0R8tCvMyj_V4xSjafesZW2xOQ-xsNqO47m55DA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Leckerli One';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Leckerli One'), local('LeckerliOne-Regular'), url('http://themes.googleusercontent.com/static/fonts/leckerlione/v4/S2Y_iLrItTu8kIJTkS7DrHhCUOGz7vYGh680lGh-uXM.woff') format('woff');
+}
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Abel'), local('Abel-Regular'), url('http://themes.googleusercontent.com/static/fonts/abel/v3/EAqh528fFdbUek8UOky4sA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Signika'), local('Signika-Regular'), url('http://themes.googleusercontent.com/static/fonts/signika/v3/_M5k9_BZTkfaM2dnN0vNGw.woff') format('woff');
+}

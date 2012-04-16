@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arapey Regular'), local('Arapey-Regular'), url('http://themes.googleusercontent.com/static/fonts/arapey/v2/hTZBMDBEmuM7E6AJpWkyGA.woff') format('woff');
+}
+@font-face {
+  font-family: 'Arapey';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Arapey Italic'), local('Arapey-Italic'), url('http://themes.googleusercontent.com/static/fonts/arapey/v2/YQbRo6SDRtnzyJToW4DvyvesZW2xOQ-xsNqO47m55DA.woff') format('woff');
+}

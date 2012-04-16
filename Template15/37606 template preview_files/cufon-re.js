@@ -1,0 +1,2 @@
+Cufon.replace('.sf-menu em, h3, .button, h2, .tabs1 li, .Dropcap, .sf-menu b, .text5 span, .text6, h4, h5, figcaption, table thead th', { fontFamily: 'Kozuka Gothic Pro B', hover:true });
+Cufon.replace(' .title, .text5 b, .font1, h6, .text8', { fontFamily: 'Kozuka Gothic Pro R', hover:true });

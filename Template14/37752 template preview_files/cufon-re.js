@@ -1,0 +1,1 @@
+Cufon.replace('.caption, .button-2, .button-3, h3, h4, h6, .block-title, .button, .offer-title, .offer strong, .search-title', { fontFamily: 'Franchise', hover:true });

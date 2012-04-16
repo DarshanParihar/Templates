@@ -1,0 +1,161 @@
+/*********************************menu**********************************/
+.menu-indent {
+	float:left;
+	padding-top:9px;
+}
+
+#main-menu{width:724px;}
+
+.menu {
+	padding:0; 
+	width:645px;
+}
+.menu > li {
+	float:left;
+	position:relative;
+	padding:0px 0 0px;
+}
+.menu > li > a {
+	background:url(border-1.gif) repeat-y right 0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:22px;
+	color:#f0ede8; 
+	display:block;
+	padding: 30px 0 0 25px;
+	overflow:hidden;
+	height:65px;
+	width:136px;
+}
+.menu > li > a:hover, .menu > li > a.active, .menu > li.sfHover > a {
+	background:url(hover-10.png) repeat 0 0;
+	color:#e4522b;
+	box-shadow: 2px 0px 2px #000;
+	-moz-box-shadow: 2px 0px 2px #000;
+	-webkit-box-shadow: 2px 0px 2px #000;
+}
+
+.menu > li a span {
+	font-size:11px;
+	line-height:14px;
+	color:#848484;
+	display:block;
+}
+
+.menu li:hover {visibility:	inherit; }
+
+.menu li strong {
+	position:absolute;
+	background:url(arrow000.png) no-repeat 0 0;
+	display:block;
+	left:80px;
+	top:40px;
+	height:4px;
+	width:7px;
+}
+
+/******************************** submenu **************************************/
+.menu ul {
+	position:		absolute;
+	padding:		2px 3px 3px 3px;
+	top:			-999em;
+	width:			176px;
+	background: 	url(bg000000.gif) repeat 0 0;
+	border:1px solid #000;
+}
+
+.menu li li {width:	100%; background: url(border-2.gif) repeat-x 0 bottom;padding:2px 0;}
+
+.menu li li.last {background-image:none;}
+.menu li li a {
+	background:url(hover-le.png) no-repeat left -38px;
+	padding-left:4px;
+	display:block;
+}
+
+.menu li li a span {
+	background:url(hover-ri.png) no-repeat right -38px;
+	padding-right:4px;
+	display:block;
+}
+
+.menu li li a span span {
+	background:url(hover-bg.jpg) repeat-x 0 -38px;
+	display:block;
+	font-size:13px;
+	line-height:16px;
+	color:#848484;
+	padding:11px 0 12px 16px;
+}
+
+.menu li:hover ul, .menu li.sfHover ul {
+	left:			0px;
+	top:			93px;
+	z-index:		999;
+}
+ul.menu li:hover li ul, ul.menu li.sfHover li ul {
+	top:			-999em;
+}
+
+.menu li li a:hover, .menu li li.sfHover > a {background-position: left 0;}
+.menu li li a:hover span, .menu li li.sfHover > a span {background-position: right 0;color:#FFF;}
+
+/******************************** submenu 2 **************************************/
+ul.menu li li:hover ul, ul.menu li li.sfHover ul {
+	left:			183px;
+	top:			85px;
+	z-index:		9999;
+}
+ul.menu li li:hover li ul, ul.menu li li.sfHover li ul {
+	top:			-999em;
+}
+
+.social-buttons li {padding-bottom:6px;}
+
+.social-buttons {
+	float:left;
+	padding: 13px 0 0 25px;
+}
+
+.social-buttons a {
+	display:block;
+	background:url(social-b.jpg) no-repeat 0 0;
+	height:32px;
+	width:31px;
+}
+
+.social-buttons a.item-2 {background-position: 0 -38px;}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	#main-menu{ width:532px;border-right:1px solid #000;}
+	.menu {width:487px;}
+	.menu > li > a {width:103px;padding-left:15px;}
+	.social-buttons {padding-left:0;}
+}
+@media only screen and (max-width: 767px) {
+	#main-menu, .menu { width:300px;}
+	.menu li {float:none;margin-bottom:8px;}
+	.menu li li {background:none;padding:0;}
+	.menu ul {position:relative !important;top:0 !important;left:0 !important;padding:8px 0 0;border:none !important;background:none;}
+	.menu ul {width:290px;padding-left:10px;}
+	.menu ul ul {width:280px;padding-left:10px;}
+	.menu li a, .menu li li a {background: url(http://static.livedemo00.template-help.com/wt_37903/images/hover-2.png) no-repeat 0 0;height:45px;padding:10px 0 0 25px;display:block;width:273px;border:1px solid #000;}
+	.menu li li a {width:263px;}
+	.menu li li li a {width:253px;}
+	.menu li li a span, .menu li li a span span {background:none;padding:0;color:#FFF;padding-top:4px;}
+	.menu > li > a:hover, .menu > li > a.active, .menu > li.sfHover > a,
+	.menu li li a:hover, .menu li li.sfHover > a {box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;background: url(http://static.livedemo00.template-help.com/wt_37903/images/hover-2.png) no-repeat 0 -65px;color:#FFF;}
+	.menu > li > a:hover span, .menu > li > a.active span, .menu > li.sfHover > a span {color:#FFF;}
+	.menu li strong {top:20px;}
+	.social-buttons {position:absolute; top:10px;right:32px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#main-menu, .menu { width:420px;}	
+	.menu ul {width:410px;}
+	.menu ul ul {width:400px;}
+	.menu li a, .menu li li a {width:393px;}
+	.menu li li a {width:383px;}
+	.menu li li li a {width:373px;}
+
+	
+}

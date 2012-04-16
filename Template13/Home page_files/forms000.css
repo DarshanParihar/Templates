@@ -1,0 +1,21 @@
+input[type="text"],input[type=password],textarea{font-family:Arial, Helvetica, sans-serif;color:#6091a6;font-size:1em;vertical-align:middle;font-weight:normal;padding:10px 13px;margin:0;background:url(http://static.livedemo00.template-help.com/wt_37507/images/input.png);border:1px solid #102c38;outline:none;width:352px;border-radius:7px;display:inline-block;}
+
+#search{padding-right:20px;}
+#search input[type="text"]{width:145px;vertical-align:middle;margin-right:10px;padding:7px 13px;}
+#search a{vertical-align:middle;}
+
+/* Contact form */
+#contact-form{position:relative;vertical-align:top;}
+#contact-form .success{position:absolute;bottom:100%;left:0;display:none;}
+	#contact-form fieldset{border:none;padding:0}
+		#contact-form label{padding-bottom:15px;overflow:hidden;display:block;position:relative;}
+			#contact-form .message{padding-bottom:35px;}
+			#contact-form textarea{width:512px;height:176px;overflow:auto;resize:vertical}
+			#contact-form .error,#contact-form .empty{color:#f00;display:none;position:absolute;left:0;font-size:10px;line-height:1.2em;}
+		#contact-form .btns{text-align:right;}
+		#contact-form .btns a{margin-left:30px;}
+		
+/* Newsletter-form */
+#newsletter-alt-form fieldset{border:none}
+#newsletter-alt-form input[type=text]{width:215px;margin-right:12px;}
+#newsletter-alt-form a{vertical-align:middle;}

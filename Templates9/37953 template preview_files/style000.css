@@ -1,0 +1,93 @@
+/* Left & Right alignment */
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+/* Global properties ======================================================== */
+body{ border:0; font:10px Arial, Helvetica, sans-serif; color:#646464; line-height:18px; min-width: 946px;  min-height: 860px; position: absolute;width: 100%;height: 100%;}
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+/* Global Structure ============================================================= */
+.glob{width: 100%; height: 100%;  position: absolute; overflow: hidden; background:url(bg000000.jpg) 50% 50% no-repeat;}
+.main {	margin: 0 auto;	width: 940px;}
+.page_spinner{ position:absolute; background: url(ajax-loa.gif) 50% 50% no-repeat #131313; z-index:99; width:100%; height:100%; top:0; left:0}
+#glob{position:relative; overflow:hidden; z-index:1;}
+/* ============================= main layout ====================== */
+a{ color:#fff; text-decoration: none; outline:none}
+a:hover{ text-decoration:underline}
+.undLineOff{text-decoration: none;}
+h1{float: left; padding: 0 0 0 20px;}
+h2{float: left; color: #fff; font-family: Trebuchet MS; font-size: 30px; font-weight:bold;padding-bottom: 32px; line-height: 1; text-transform: uppercase;width: 100%;}
+p{padding-bottom: 10px; text-transform: uppercase;}
+.center{ padding:20px 0}
+/* ============================= header ====================== */
+header{ height: 140px; position: relative; z-index: 2; padding-top: 72px;}
+#logo{ display:block; text-indent:-9999px; background:url(logo0000.png) 0 0 no-repeat; width:142px; height:52px;}
+#menu { float:right; padding-top: 40px;}
+#menu > li { float:left; position:relative; padding-right: 17px; border-right: 1px solid #404040; margin-left: 17px;}
+#menu > li > a{display:block; font-size:12px; color:#fff; text-transform:uppercase; position:relative; text-align:center; line-height: 14px; letter-spacing:0px}
+#menu > li > a:hover{color:#3e3d3d;}
+#menu > li.lastMenu{border-right: 0px solid #404040;}
+#menu > li.active > a{color: #4e4e4e; text-decoration: underline;}
+.submenu_1{ position:absolute; top:30px; left:-15px; width:90px; background:#212121; border-radius: 10px;}
+.submenu_1 li{padding-bottom:0px; position:relative}
+.submenu_1 a{display:block; font-size:12px; color:#fff; line-height:20px; text-transform:uppercase; letter-spacing:0px; text-align:center;}
+.submenu_1 li:hover > a, .submenu_1 li.sfHover > a{color:#3e3d3d; text-decoration: none;}
+.submenu_2{ position:absolute;top:0px; left:92px; width:90px; background: #212121;  border-radius: 10px;}
+.submenu_2 li{ padding-right:1px; position:relative; float:left; width:100%;}
+.submenu_2 a{ display:block; font-size:12px; color:#fff; line-height:20px; text-transform:uppercase; letter-spacing:0px; text-align:center;}
+.submenu_2 li:hover > a{color:#3e3d3d; text-decoration: none;}
+.menuSubPadTop{padding-top: 24px;}
+.menuSubMarBottom{margin-bottom: 24px;}
+/* ============================= content ====================== */
+#navSplash > li{float: left;margin-right: 21px;}
+#navSplash > li >a{float: left; background:url(splDot00.png) 0 0 no-repeat; width: 7px; height: 7px;}
+#navSplash li.activeSlide a { background:url(splDotOv.png) 0 0 no-repeat; width: 7px; height: 7px;}
+#navSplash > li > a:hover{background:url(splDotOv.png) 0 0 no-repeat; width: 7px; height: 7px;} 
+.textSpl{font-family: Trebuchet MS; font-size:20px; color:#fff; letter-spacing:0px; text-transform: uppercase;padding-top: 10px;margin-left: 0px;}
+#content{ height:512px; position:relative; z-index:1}
+#content > ul{ width:100%}
+#content > ul > li{ width:100%}
+.scroll1 {width: 400px; height: 270px;}
+.scroll2 {width: 400px; height: 270px;}
+.upBtnS{background: url(http://static.livedemo00.template-help.com/wt_37953/images/scrollButton.png) 0 0 no-repeat; width: 33px; height: 33px;float: left;}
+.downBtnS{background: url(http://static.livedemo00.template-help.com/wt_37953/images/scrollButton.png) 0 0 no-repeat; width: 33px; height: 33px;float: left;}
+.imgPadBot {padding-bottom: 20px;}
+.imgPadBo1 {padding-bottom: 28px;}
+.txtBl{font-size: 10px; color: #646464;}
+.text1{font-size: 13px; color: #fff; }
+.readM{font-size: 13px; color: #fff; text-transform: uppercase;}
+.box{background: url(contentP.png) 0 0 no-repeat; height:475px;}
+.splash{width: 940px; height:475px;margin-left: 20px;}
+.iconSize{width: 72px; float: left;height: 144px;}
+.padLeft1{padding-left: 33px;}
+.padRight2{padding-right: 16px;}
+.padRight3{padding-right: 22px;}
+.padRight4{padding-right: 38px; border-right: 1px solid #1B1B1B;}
+.padBot1{padding-bottom: 12px;}
+.padBot2{padding-bottom: 25px; float: left;}
+.padBotCl{padding-bottom: 0px;}
+.padTop1{padding-top: 25px;margin-left: 18px;}
+.padTop2{padding-top: 20px;}
+.padTop3{padding-top: 15px;}
+.magrLeft{margin-left: 33px;}
+.bordLine{ border-right: 1px solid #1B1B1B; padding-right: 38px;}
+.space1{display:inline-block; width: 106px;}
+/* ============================= footer ====================== */
+footer {position: relative; padding-top: 54px;margin-left: 20px;}
+footer a{}
+footer a:hover{}
+.textPrivacy{ font-size:10px; color:#4d4d4d; letter-spacing:0px;}
+/* ============================= forms ============================= */
+#ContactForm{ position:relative}
+#ContactForm .wrapper{ overflow:inherit; min-height: 20px;}
+#ContactForm .heig{height: 51px;}
+#ContactForm .success{display:none; bottom:0; left:0; position:absolute;}
+#ContactForm label{ position:relative; min-height: 56px; display: inline-block;}
+#ContactForm .message{ height: 135px;}
+#ContactForm  span{ display:block}
+#ContactForm .error, #ContactForm .empty{ font-size: 10px; color:#fff; line-height: 8px; display:none; width:100%}
+#ContactForm a{ margin-left: 18px; float:right; padding-right: 2px; text-decoration:underline;}
+#ContactForm a:hover{text-decoration:none;}
+#ContactForm .input { margin: 0; width: 276px; height: 28px; background: none; padding: 5px 15px; color: #aeadad; font: 12px  Arial; outline: none; line-height: 28px;}
+#ContactForm textarea { overflow: auto; margin:0; width: 365px; height: 97px; background: none; padding: 11px 16px; color: #AEADAD; font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif; resize: none; outline: none; font-family: Arial;}
+.button1{font-family: Arial; font-size: 14px;}
+#ContactForm  .bg{ background: #4e4e4e;  position:relative; display:inline-block; border: 1px solid;}

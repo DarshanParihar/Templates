@@ -1,0 +1,19 @@
+.containerContent {
+    width: 675px;
+    z-index: 1;
+    position: relative;
+    padding-top: 50px;
+    float: right;
+    margin-right: 30px;
+}  
+.col1{width: 100%; position: relative; float: left;}
+.col2{width: 380px; position: relative; float: left;}
+.col3{width: 230px; position: relative; float: left;}
+.col4{width: 196px; position: relative; float: left;}
+.col5{width: 210px; position: relative; float: left;}
+.col6{width: 390px; position: relative; float: left;}
+
+.subCol1{width: 190px; position: relative; float: left;}
+.subCol2{width: 132px; position: relative; float: left;}
+.subCol3{width: 186px; position: relative; float: left;}
+.subCol4{width: 420px; position: relative; float: left;}

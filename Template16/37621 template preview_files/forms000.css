@@ -1,0 +1,30 @@
+input[type="text"],input[type=password],textarea{font-family:Arial, Helvetica, sans-serif;color:#bdbdbd;font-size:1em;vertical-align:middle;font-weight:normal;padding:14px 15px 13px;margin:0;background:#fcfcfc;box-shadow:1px 1px 3px rgba(0,0,0,.04) inset;border:none;outline:none;width:420px;}
+
+#search input[type="text"]{width:253px;vertical-align:middle;margin:0 8px 0 0;}
+#search a{vertical-align:middle;}
+
+#search_1{float:right;padding:7px 9px 7px 0;}
+#search_1 input[type="text"]{vertical-align:top;width:192px;padding:10px 15px;}
+#search_1 a{display:inline-block;background:url(search_b.png);width:15px;height:16px;margin:11px 12px 0 -27px;}
+#search_1 a:hover{background:url(search_b.png) 0 -16px;}
+
+fieldset{border:none;padding:0;margin:0;}
+/* Contact form */
+#contact-form{position:relative;vertical-align:top;width:545px}
+#contact-form .success{position:absolute;bottom:10px;left:0px;display:none;font-weight:bold;}
+		#contact-form label{padding:0 0 7px;display:block;position:relative;margin:0;}
+			#contact-form .message{padding-bottom:19px}
+			#contact-form textarea{width:515px;height:217px;overflow:auto;resize:vertical;}
+			#contact-form .error,#contact-form .empty{color:#f00;display:none;font-size:12px;line-height:1.2em;}
+			#contact-form .message .error,#contact-form .message .empty{color:#f00;display:none;font-size:12px;line-height:1.2em;}
+		#contact-form .btns{text-align:right;}
+		#contact-form .btns a{margin-left:9px;}
+		
+/* Newsletter-form */
+#newsletter-alt-form{position:relative;}
+#newsletter-alt-form fieldset{border:none}
+#newsletter-alt-form label{display:inline-block;vertical-align:middle;position:relative;}
+#newsletter-alt-form .success{position:absolute;bottom:100%;left:0;display:none;font-weight:bold;}
+#newsletter-alt-form input[type=text]{width:215px;margin-right:12px;}
+#newsletter-alt-form .error,#newsletter-alt-form .empty{color:#f00;display:none;position:absolute;top:100%;left:0;font-size:12px;line-height:1.2em;}
+#newsletter-alt-form a{vertical-align:middle;}

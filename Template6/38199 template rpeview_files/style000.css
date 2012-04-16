@@ -1,0 +1,157 @@
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.wrapper {width:100%; overflow:hidden;}
+.relative{ position:relative;}
+
+/* Global properties ======================================================== */
+
+body{ background:#111116; border:0; font:13px Arial, Helvetica, sans-serif; color:#9a9a9a; line-height:22px; min-width:960px; overflow:hidden}
+
+
+.page_spinner{ position:absolute;background: url(http://static.livedemo00.template-help.com/wt_38199/images/bg.jpg) 0 0 repeat #111116; z-index:99; width:100%; height:100%; top:0; left:0}
+.page_spinner div{ position:absolute;background: url(ajax-loa.gif) 50% 50% no-repeat;width:100%; height:100%; top:0; left:0}
+
+#bgStretch {overflow:hidden;z-index:-1; position:fixed}
+.spinner {width:100%;height:100%;position: fixed;z-index:0;left:0;top:0;background: url(ajax-loa.gif) center center no-repeat;}
+
+/* Global Structure ============================================================= */
+
+.over{ position:relative; overflow:hidden}
+
+/* ============================= main layout ====================== */
+
+a{ color:#9a9a9a; text-decoration: none; outline:none}
+a:hover{ text-decoration: none}
+h1{ padding:0 0 0 0; float:left;}
+h2{ font:27px 'Arapey', serif; color:#26251e; line-height:1.2em; text-transform:uppercase; padding:0 0 26px 0; margin-top:-4px; letter-spacing:-1px;}
+h2 span{ display:block; margin-top:-10px;}
+p{ padding-bottom:22px;}
+
+/* ============================= header ====================== */
+header{ height:256px; position:relative; z-index:2}
+
+#logo{ display:block; text-indent:-9999px; background:url(logo0000.jpg) 0 0 no-repeat; width:196px; height:240px; overflow:hidden; position:relative}
+#logo span{  text-indent:0; display:block; width:100%; height:100%; position:absolute; top:0; left:0;}
+#logo span img{position:absolute; top:0; left:0; width:0; height:0;}
+
+.menu{ float:right; margin-top:26px;}
+#menu {}
+#menu > li { position:relative; float: left; border-right:1px solid #35353b;}
+#menu > .last{ border:0}
+#menu > li > a{ position:relative; overflow:hidden; background:#161515; display:block; font:18px 'Arapey', serif; line-height:48px; text-transform:uppercase; color:#fff}
+#menu > li > a > span{ position:relative; display:block; padding:0 26px; height:100%}
+#menu > li > a > .right_mask, #menu > li > a > .left_mask{ position:absolute; top:0; width:100%; padding:0}
+#menu > li > a > .right_mask{ background:url(bg_mask_.png) 0 0 no-repeat; right:-100%}
+#menu > li > a > .left_mask{ background: url(bg_mask0.png) right 0 no-repeat; left:-100%}
+
+.submenu_1{ position: absolute; left:0; top:49px; width:158px; background:#333339; padding:21px 0}
+.submenu_1 li{ margin-bottom:5px; position:relative; line-height:35px;}
+.submenu_1 a{ display:block; font-weight:bold; color:#fff; position:relative; padding:0 15px;}
+.submenu_1 span{ position:absolute; width:100%;  height:100%; background:#ffbf11}
+.submenu_1 a:hover, .submenu_1 .sfHover > a{}
+.submenu_2{ position: absolute; left:159px; top:-21px; width:158px; background:#ffbf11; padding:21px 0}
+.submenu_2 span{ position:absolute; width:100%;  height:100%; background:#333339}
+
+/* ============================= content ====================== */
+
+#content{ position:relative; z-index:1; overflow:visible !important}
+#content > ul > li{ position:relative; width:100%}
+
+.close{ position:absolute; right:20px; top:20px; background:url(close000.gif) 0 0 no-repeat; width:26px; height:26px;}
+.close span{ display:block; width:100%; height:100%; background:url(close_ac.gif) 0 0 no-repeat}
+
+#splash{ position:absolute; width:100%}
+
+#caption{ position:relative; margin-top:53px; height:427px;}
+#caption li{ position:absolute;}
+#caption li a{ font-family:'Arapey', serif; color:#fff;}
+#caption strong{ font-size:130px; line-height:1.2em; display:block; letter-spacing:-5px; font-weight:normal}
+#caption span{ font-size:80px; line-height:1.2em;  display:block; letter-spacing:-4px; margin-top:-61px;}
+#caption span{ font-size:80px; line-height:1.2em;  display:block; letter-spacing:-4px; margin-top:-61px;}
+#caption em{ font-size:40px; line-height:1.2em;  display:block; letter-spacing:-2px; margin-top:-18px; color:#161515; font-style: normal}
+#caption img{ display:inline-block; margin-top:19px}
+
+#caption1 strong{padding-left:152px;}
+#caption1 span{padding-left:2px;}
+#caption1 em{padding-left:40px;}
+#caption2 strong{ margin-left:-4px}
+#caption2 span{padding-left:40px;}
+#caption2 em{padding-left:40px;}
+#caption3 strong{padding-left:15px;}
+#caption3 span{padding-left:105px;}
+#caption3 em{padding-left:50px;}
+#caption4 strong{padding-left:20px;}
+#caption4 span{padding-left:4px;}
+#caption4 em{padding-left:70px;}
+
+#bg_pagination{ padding:21px 0 21px 23px; background:#111116; }
+#bg_pagination ul{height:152px;}
+#bg_pagination li{ float:left; margin-right:17px; position:relative; width:213px;}
+#bg_pagination a{ position:relative; display:block; height:152px; overflow:hidden}
+#bg_pagination .act_box{ position:absolute; width:100%; height:100%; background:#ffbf11; top:0; left:0}
+#bg_pagination .box{ position:absolute; width:197px; background:#111116; height:97px; border:8px solid #333339; top:0; left:0}
+#bg_pagination img{ position:relative; padding:8px;}
+#bg_pagination .caption{ text-align:center; display: block; font:20px 'Arapey', serif; color:#fff; line-height:1.2em; position:relative; letter-spacing:-1px; margin-top:2px; padding-right:12px;}
+#bg_pagination .caption span{ text-transform:uppercase}
+#bg_pagination .caption em{ display:inline-block; background:url(marker_1.gif) 0 0 no-repeat; width:8px; height:9px; margin-top:8px;}
+
+#content > ul > li .box{ padding:60px 0; background:#fafafa}
+.height{ min-height:554px;}
+
+.line1{ background:url(line_ver.gif) 630px 0 repeat-y}
+.line2{ background:url(line_ver.gif) 310px 0 repeat-y}
+.line3{ background:url(line_ver.gif) 550px 0 repeat-y}
+#page_contacts .line3{ background:url(line_ver.gif) 400px 0 repeat-y}
+
+.pad_bot1{ padding-bottom:14px}
+.pad_bot2{ padding-bottom:28px}
+.pad_top1{ padding-top:8px;}
+.marg_bot1{ margin-bottom:52px}
+.marg_right1{ margin-right:19px;}
+#page_services .marg_bot1{ margin-bottom:65px}
+
+
+.font1{ font-weight:bold; text-transform:uppercase; line-height:25px; color:#f0af00}
+
+figure{ padding-top:7px;}
+
+.list1{}
+.list1 li{ line-height:26px; padding-bottom:8px;}
+.list1 a{ color:#26251e; text-decoration:underline; padding-left:17px; background:url(marker_1.gif) 0 4px no-repeat; font-weight:bold}
+
+.button1{ display:inline-block; background:#333339; color:#fff; text-transform:uppercase; line-height:33px; position:relative; overflow:hidden}
+.button1 strong{ position: relative; padding:0 9px;}
+.button1 strong span{ padding-right:15px; background:url(marker_1.gif) right 4px no-repeat}
+.button1 .right_mask, .button1 .left_mask{ position:absolute; top:0; width:100%; padding:0; height:100%}
+.button1 .right_mask{ background:url(bg_mask1.png) 0 0 no-repeat; right:-100%}
+.button1 .left_mask{ background: url(bg_mask2.png) right 0 no-repeat; left:-100%}
+
+.google_map{ width:310px; height:224px; background:#fff; padding-top:0; margin-top:7px; margin-bottom:22px;}
+
+
+/* ============================= footer ====================== */
+
+footer { padding-top:46px; color:#242120; padding-bottom:52px;}
+footer a{ color:#242120}
+footer span{ font:20px 'Arapey', serif; color:#fff; text-transform:uppercase}
+
+/* ============================= forms ============================= */
+
+#ContactForm{ padding-top:7px; position:relative}
+#ContactForm .wrapper{ overflow:inherit; min-height:43px;}
+#ContactForm .success{ display:none; position:absolute; left:0; bottom:0;}
+#ContactForm label{ position:relative;min-height:31px; display: inline-block;}
+#ContactForm .message{ height:328px;}
+#ContactForm .error, #ContactForm .empty{ font-size:10px; color:#000; line-height:14px; display:none; width:100%}
+#ContactForm a{float:right;}
+#ContactForm .input { margin:0;width:246px; height:17px; background:#fff; border:1px solid #b3b3b3; padding:6px 10px;color:#9b9b9b; font:13px Arial, Helvetica, sans-serif;}
+#ContactForm textarea { overflow: auto; margin:0;resize:none;width:447px; height:297px; background:#fff; border:1px solid #b3b3b3; padding:6px 10px;color:#9b9b9b; font:13px Arial, Helvetica, sans-serif;}
+
+
+#ContactForm  .bg{display:inline-block;}
+
+
+

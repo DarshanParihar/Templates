@@ -1,0 +1,50 @@
+#slides {
+	margin: 0 auto; 
+	height:475px;
+	width: 916px; 
+	position:relative; 
+	background:url(slider-b.gif) repeat-x 0 0;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	padding-top:11px;
+	padding-left:11px;
+	padding-right:11px;
+}
+.slides_container {
+	background:#141414;
+	width:916px;
+	height:475px;
+}
+.slides_container div.slide {
+	width:916px;
+	height: auto; 
+	display:block;
+}
+.slides_container div.slide img { 
+	max-width:100%; 
+	height: auto;
+}
+
+/* Control Nav */
+.caption{ 
+	width:555px; 
+	height:93px; 
+	background: url(http://static.livedemo00.template-help.com/wt_37903/images/banner.png) 0 0 repeat; 
+	position:absolute; 
+	left:-5px; 
+	bottom:50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.slides_container div.slide, #slides,.slides_container {width: 724px !important;height:376px;}
+}
+
+@media only screen and (max-width: 767px) {	
+	.slides_container div.slide, #slides,.slides_container {width: 276px;height:141px;}
+	#slides {border-bottom: 1px solid #000000;padding-bottom:11px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.slides_container div.slide, #slides,.slides_container {width: 396px;height:201px;}
+}

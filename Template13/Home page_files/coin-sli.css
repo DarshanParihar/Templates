@@ -1,0 +1,8 @@
+#coin-slider{overflow:hidden;background:url(http://static.livedemo00.template-help.com/wt_37507/images/loader.gif) 50% 50% no-repeat;width:900px;height:600px;margin:0 auto;}
+.coin-slider{position:relative;margin:10px auto 10px;width:900px;height:600px;}
+.coin-slider a{text-decoration:none;outline:none;border:none}
+.cs-buttons{font-size:0px;position:absolute;line-height:0;bottom:20px;right:17px;}
+.cs-buttons a{margin-right:2px;height:24px;width:24px;background:#e6e6e6;display:inline-block;border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px;}
+.cs-buttons a:hover,.cs-buttons a.cs-active{background:#111;}
+.cs-prev,.cs-next{background:#e6e6e6;color:#111;padding:0px 10px}
+.cs-prev:hover,.cs-next:hover{background:#111;color:#e6e6e6}

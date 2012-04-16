@@ -1,0 +1,139 @@
+/*********************************menu**********************************/
+#main-menu {
+	width:790px;
+	position:relative;
+	padding: 1px 0;
+}
+
+#main-menu strong {
+	display:block;
+	position:absolute;
+	top:0;
+	left:495px;
+	height:49px;
+	width:0;
+	border-top:1px solid #eaeaea;
+	border-bottom:1px solid #eaeaea;
+}
+.menu {
+	padding:0; 
+	width:100%;
+}
+.menu > li {
+	float:left; 
+	position:relative;
+	margin:16px 0 16px 76px;
+}
+.menu > li:first-child {margin-left:25px;}
+.menu > li a {
+	display:block;
+	font-size:14px;
+	line-height:17px;
+	color:#1e1e1e; 
+	text-transform:uppercase;
+	text-align:center; 
+}
+.menu > li > a:hover, .menu > li > a.active, .menu > li.sfHover > a {color:#de2152;}
+
+.menu li:hover {visibility:	inherit; }
+
+/******************************** submenu **************************************/
+.menu ul {
+	position:		absolute;
+	padding:		24px 20px 20px 30px;
+	top:			-999em;
+	width:			134px;
+	background: 	#fff;
+	border:1px solid #e4e4e4;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+
+.menu li li {width:	100%; margin:0px 0 9px; background:none;}
+.menu li.last {margin-bottom:0;} 
+.menu li li a {
+	display:inline-block;
+	background:url(marker-1.gif) no-repeat -10px 4px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:14px;
+	color:#1e1e1e;
+	padding:0 0 0 0px;
+	text-align:left;
+	transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+}
+
+.menu li:hover ul, .menu li.sfHover ul {
+	left:			-25px;
+	top:			25px;
+	z-index:		999;
+}
+ul.menu li:hover li ul, ul.menu li.sfHover li ul {
+	top:			-999em;
+}
+
+.menu li li a:hover, .menu li li.sfHover > a {color:#de2152;background-position: 0 4px;padding-left:14px;}
+
+/******************************** submenu 2 **************************************/
+.menu ul ul {
+	width:109px;
+	padding: 24px 20px 34px 27px;
+}
+
+.menu li li li {margin-bottom:6px;}
+
+ul.menu li li:hover ul, ul.menu li li.sfHover ul {
+	left:			187px;
+	top:			27px;
+	z-index:		9999;
+}
+ul.menu li li:hover li ul, ul.menu li li.sfHover li ul {
+	top:			-999em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#main-menu{ width:630px;}
+	.menu > li {margin-left:46px;}
+	.menu > li:first-child {margin-left:15px;}
+	#main-menu strong {left:315px;}
+	.menu li:hover ul, .menu li.sfHover ul {left:-25px;}
+}
+@media only screen and (max-width: 767px) {
+	#main-menu{ width:300px;padding-bottom:25px;}
+	.menu li {float:none;margin:0 0 8px 0;}
+	.menu > li:first-child {margin:30px 0 8px;}
+	.menu li a {background:url(http://static.livedemo00.template-help.com/wt_37752/images/hover-1.png) repeat-x 0 0;text-align:left;padding: 13px 20px 12px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+	.menu > li > a:hover, .menu > li > a.active, .menu > li.sfHover > a {color:#fff;background-position: 0 -50px;}
+	.menu li li a {
+		transition: none;
+		-o-transition: none;
+		-moz-transition: none;
+		-webkit-transition: none;
+		background:url(http://static.livedemo00.template-help.com/wt_37752/images/hover-1.png) repeat-x 0 0;
+		text-align:left;
+		padding: 13px 20px 12px;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		display:block;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:14px;
+		line-height:17px;
+	}
+	.menu li li a:hover, .menu li li.sfHover > a {color:#fff;background-position: 0 -50px;padding-left:20px;}
+	.menu ul, .menu ul ul {position:relative !important;top:0 !important;width:290px;left:0 !important;border:none;padding:8px 0 0 10px;}
+	.menu ul ul {width:280px;}
+	#main-menu strong {left:210px;border-bottom:none;height:1px;}
+	#main-menu a span {display:block;position:absolute;top:18px;left:91px;background:url(http://static.livedemo00.template-help.com/wt_37752/images/marker-4.gif) no-repeat 0 0;height:7px;width:4px;}
+	#main-menu a:hover span, #main-menu a.active span, #main-menu li.sfHover a span {background-position: 0 -18px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#main-menu{ width:420px;}	
+	.menu ul {width:410px;}
+	.menu ul ul {width:400px;}
+	#main-menu strong {left:150px;}
+}
